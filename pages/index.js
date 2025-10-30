@@ -1,5 +1,5 @@
 function Home() {
-  return <h1>Nova frase a ser mostrada</h1>
+  return <h1>Nova frase a ser mostrad</h1>
 }
 
 export default Home;
