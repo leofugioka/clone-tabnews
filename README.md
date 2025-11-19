@@ -30,3 +30,11 @@ Também: Instalar extensão Prettier do vscode
 ## Para prettier@3.0+
 
 Criar `.prettierignore` e adicionat a pasta ".next/" ao arquivo
+
+# Comando Docker para iniciar o banco de dados
+
+`docker compose -f infra/compose.yaml up -d`
+
+# Comando Docker para encerrar o banco de dados
+
+`docker compose -f infra/compose.yaml down`
